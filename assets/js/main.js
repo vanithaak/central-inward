@@ -136,4 +136,7 @@ $(document).ready(function () {
        }
   ]
   });
+  $('#modalTable').DataTable({
+    searching: false,
+  });
 });
