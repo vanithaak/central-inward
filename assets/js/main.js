@@ -119,6 +119,8 @@ let menu, animate;
 
 $(document).ready(function () {
   $('#example').removeAttr('width').DataTable({
+    // dom: f,
+    searching: false,
     scrollX: true,
     columnDefs: [
       { 

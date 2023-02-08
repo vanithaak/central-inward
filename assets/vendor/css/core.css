@@ -82,6 +82,14 @@ body {
   margin: 0 auto;
 } */
 
+.dataTables_paginate.paging_simple_numbers {
+  float: right;
+}
+
+.dataTables_length {
+  display: none;
+}
+
 hr {
   margin: 1rem 0;
   color: #d9dee3;
