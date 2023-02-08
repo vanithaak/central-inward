@@ -141,4 +141,14 @@ $(document).ready(function () {
   $('#modalTable').DataTable({
     searching: false,
   });
+  $('#po-view-branch').DataTable({
+    searching: false,
+    scrollX: true,
+    scrollY: "300px",
+    columnDefs: [
+      { 
+        width: 300, targets: 3,
+       }
+  ]
+  });
 });
