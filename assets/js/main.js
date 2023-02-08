@@ -118,5 +118,22 @@ let menu, animate;
 })();
 
 $(document).ready(function () {
-  $('#example').DataTable();
+  $('#example').removeAttr('width').DataTable({
+    scrollX: true,
+    columnDefs: [
+      { 
+        width: 300, targets: 3,
+        // width: 130, targets: 9,
+        // width: 130, targets: 11,
+        // width: 130, targets: 12,
+        // width: 130, targets: 13,
+        // width: 130, targets: 14,
+        // width: 130, targets: 15,
+        // width: 130, targets: 16,
+        // width: 130, targets: 17,
+        // width: 130, targets: 18,
+        // width: 130, targets: 19
+       }
+  ]
+  });
 });
