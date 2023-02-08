@@ -123,3 +123,13 @@
   background-color: #ff9800;
   color: #fff;
 } */
+
+.dataTables_info {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.dataTables_paginate {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
