@@ -123,7 +123,7 @@ $(document).ready(function () {
     searching: false,
     scrollX: true,
     columnDefs: [
-      { 
+      {
         width: 300, targets: 3,
         // width: 130, targets: 9,
         // width: 130, targets: 11,
@@ -135,8 +135,8 @@ $(document).ready(function () {
         // width: 130, targets: 17,
         // width: 130, targets: 18,
         // width: 130, targets: 19
-       }
-  ]
+      }
+    ]
   });
   $('#modalTable').DataTable({
     searching: false,
@@ -146,9 +146,22 @@ $(document).ready(function () {
     scrollX: true,
     scrollY: "300px",
     columnDefs: [
-      { 
+      {
         width: 300, targets: 3,
-       }
-  ]
+      }
+    ]
+  });
+  const poEdit = $('#po-edit').DataTable({
+    searching: false,
+    scrollX: true,
+    columnDefs: [
+      {
+        width: 300, targets: 3,
+      }
+    ]
+  });
+
+  $('#po-edit').on('click', 'tbody td', function () {
+    poEdit.cell(this).edit();
   });
 });
