@@ -105,3 +105,21 @@
   text-align: center;
   margin-top: 1rem;
 }
+
+.btn.fs-3 {
+  color: black;
+  font-weight: 500;
+}
+
+.page-item.active .page-link, .page-item.active .page-link:hover, .page-item.active .page-link:focus, .pagination li.active > a:not(.page-link), .pagination li.active > a:not(.page-link):hover, .pagination li.active > a:not(.page-link):focus {
+  border-color: #ff9800;
+  background-color: #ff9800;
+  color: #fff;
+  border-radius: 50px;
+}
+
+/* .page-item:hover .page-link {
+  border-color: #ff9800;
+  background-color: #ff9800;
+  color: #fff;
+} */
